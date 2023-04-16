@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #23252c;
+  display: grid;
+  place-content: center;
+  margin: 40px;
+}
+
+.container {
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 1px 1px 9px 4px rgba(145, 142, 155, 0.2392156863);
+  border-radius: 8px;
+}
+.container .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  max-width: 317px;
+  width: 100%;
+  color: #ffffff;
+}
+.container .content .mainImage .mainPhoto {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.container .content .mainContent {
+  padding: 21px 34px 24px 36px;
+}
+.container .content .mainContent h1 {
+  font-size: 1.5625rem;
+  margin: 0;
+}
+.container .content .mainContent .job {
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  color: #f3bf99;
+  margin-top: 8.81px;
+  margin-bottom: 6.19px;
+}
+.container .content .mainContent p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.container .content .mainContent .url {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.container .content .mainContent .email--linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin: 15px 35px 33px 35px;
+}
+.container .content .mainContent .email--linkedin button {
+  box-sizing: border-box;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+.container .content .mainContent .email--linkedin .email {
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+.container .content .mainContent .email--linkedin .linkedin {
+  background: #5093e2;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+}
+.container .content .text {
+  max-width: 242.71px;
+  margin-left: 36px;
+  margin-right: 34px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.container .content .text h3 {
+  margin-bottom: 5px;
+}
+.container .content .text p {
+  color: #dcdcdc;
+  letter-spacing: 0px;
+}
+.container .content .text p:first-of-type {
+  margin-bottom: 27px;
+}
+.container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.container .footer .icons a {
+  margin-right: 24px;
+  cursor: pointer;
+}
+.container .footer .icons a:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 404px) {
+  body {
+    margin: 130px 0;
+  }
+  body .container {
+    max-width: 264px;
+  }
+  body .container .content {
+    line-height: 20px;
+  }
+  body .container .content .mainContent {
+    padding: 17px 20px;
+  }
+  body .container .content .mainContent .email--linkedin,
+  body .container .content .mainContent button {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container .content .mainContent .email--linkedin button,
+  body .container .content .mainContent button button {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container .content .mainContent .text {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
