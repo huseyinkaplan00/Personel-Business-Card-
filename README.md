@@ -22,4 +22,4 @@ With this static React website, I practiced the use of JSX with React, creating 
 
 
 ## Links
-🌍Live at : <a href="https://www.reactdigitalbusinesscard.netlify.app">Here </a>
+🌍Live at : <a href="https://reactdigitalbusinesscard.netlify.app/">Here </a>
